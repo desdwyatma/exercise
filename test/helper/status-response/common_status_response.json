@@ -1,0 +1,15 @@
+{
+    "successResponses": {
+        "OK": {
+            "code": 200
+        }
+    },
+    "errorResponses": {
+        "BadRequest": {
+            "code": 400
+        },
+        "NotFound": {
+            "code": 404
+        }
+    }
+}

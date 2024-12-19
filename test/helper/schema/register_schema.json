@@ -1,0 +1,28 @@
+{
+    "postSuccessRegister": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "number"
+            },
+            "token": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "id",
+            "token"
+        ]
+    },
+    "postFailRegister": {
+        "type": "object",
+        "properties": {
+            "error": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "error"
+        ]
+    }
+}

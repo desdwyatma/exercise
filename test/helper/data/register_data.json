@@ -1,0 +1,20 @@
+{
+    "registerValidData": {
+        "email": "eve.holt@reqres.in",
+        "password": "cityslicka"
+    },
+    "registerEmptyEmailData": {
+        "email": "",
+        "password": "cityslicka"
+    },
+    "registerMissingEmailData": {
+        "password": "cityslicka"
+    },
+    "registerEmptyPasswordData": {
+        "email": "eve.holt@reqres.in",
+        "password": ""
+    },
+    "registerMissingPasswordData": {
+        "email": "eve.holt@reqres.in"
+    }
+}
