@@ -7,10 +7,10 @@ const requestData = require('../helper/data/login_data.json');
 const responseStatus = require('../helper/status-response/common_status_response.json');
 
 const testScenario = {
-  describePositivePostLogin: 'As a User, I should be able Login',
+  describePositivePostLogin: 'As a User, I should be able to Login',
   successPostLoginWithValidRequestParameter: 'with valid request parameter',
   
-  describeNegativePostLogin: 'As a User, I should not be able Login',
+  describeNegativePostLogin: 'As a User, I should not be able to Login',
   failPostLoginWithTheEmailFieldIsInvalidUser: 'with the email field is invalid user',
   failPostLoginWithTheEmailFieldIsEmpty: 'with the email field is empty',
   failPostLoginWithMissingEmailField: 'with missing password field',

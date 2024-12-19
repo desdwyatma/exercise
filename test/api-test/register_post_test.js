@@ -7,8 +7,8 @@ const requestData = require('../helper/data/register_data.json');
 const responseStatus = require('../helper/status-response/common_status_response.json');
 
 const testScenario = {
-  describePositivePostRegister: 'As a User, I should be able Register',
-  successPostRegisterWithValidRequestParameter: 'with valid request parameter',
+  describePositivePostRegister: 'As a User, I should be able to Register',
+  successPostRegisterWithValidRequestParameter: 'with valid request to parameter',
   
   describeNegativePostRegister: 'As a User, I should not be able Register',
   failPostRegisterWithTheEmailFieldIsEmpty: 'with the email field is empty',
