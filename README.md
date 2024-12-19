@@ -17,28 +17,4 @@ npm run test-api -- "--grep" "@available-tagging"
 ```
 
 ## Test Cases
-
-### Login
-- **As a User**, I should be able to Login with valid request parameter.
-- **As a User**, I should not be able to Login with an invalid user email.
-- **As a User**, I should not be able to Login with the email field is empty.
-- **As a User**, I should not be able to Login with missing email field.
-- **As a User**, I should not be able to Login with the password field is empty.
-- **As a User**, I should not be able to Login with missing password field.
-- **As a User**, I should not be able to Login with empty request body.
-- **As a User**, I should not be able to Login with invalid HTTP method.
-
-### Register
-- **As a User**, I should be able to Register with valid request to parameter.
-- **As a User**, I should not be able Register with the email field is empty.
-- **As a User**, I should not be able Register with missing email field.
-- **As a User**, I should not be able Register with the password field is empty.
-- **As a User**, I should not be able Register with missing password field.
-- **As a User**, I should not be able Register with empty request body.
-- **As a User**, I should not be able Register with invalid HTTP method.
-
-### Resource List
-- **As a User**, I should be able to get Resource List with valid request parameter.
-- **As a User**, I should be able to get Resource List only one resource with valid request parameter.
-- **As a User**, I should not be able to get Resource List with list of data does not exist.
-- **As a User**, I should not be able to get Resource List with invalid HTTP method.
+The test cases for this script are available [here](https://docs.google.com/spreadsheets/d/1ls_cugd8iTi8iR5iOnnIRfIcXYy1N0usHYrEMCqvrGo/edit?gid=0#gid=0). 
