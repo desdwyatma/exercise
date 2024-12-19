@@ -1,0 +1,24 @@
+{
+    "postSuccessLogin": {
+        "type": "object",
+        "properties": {
+            "token": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "token"
+        ]
+    },
+    "postFailLogin": {
+        "type": "object",
+        "properties": {
+            "error": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "error"
+        ]
+    }
+}

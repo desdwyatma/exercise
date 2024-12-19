@@ -1,20 +1,24 @@
 {
-    "registerValidData": {
+    "loginValidData": {
         "email": "eve.holt@reqres.in",
         "password": "cityslicka"
     },
-    "registerEmptyEmailData": {
+    "loginInvalidEmailData": {
+        "email": "invalid.user@reqres.in",
+        "password": "cityslicka"
+    },
+    "loginEmptyEmailData": {
         "email": "",
         "password": "cityslicka"
     },
-    "registerMissingEmailData": {
+    "loginMissingEmailData": {
         "password": "cityslicka"
     },
-    "registerEmptyPasswordData": {
+    "loginEmptyPasswordData": {
         "email": "eve.holt@reqres.in",
         "password": ""
     },
-    "registerMissingPasswordData": {
+    "loginMissingPasswordData": {
         "email": "eve.holt@reqres.in"
     }
 }
