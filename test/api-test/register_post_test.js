@@ -12,7 +12,7 @@ const testScenario = {
   
   describeNegativePostRegister: 'As a User, I should not be able Register',
   failPostRegisterWithTheEmailFieldIsEmpty: 'with the email field is empty',
-  failPostRegisterWithMissingEmailField: 'with missing password field',
+  failPostRegisterWithMissingEmailField: 'with missing email field',
   failPostRegisterWithThePasswordFieldIsEmpty: 'with the password field is empty',
   failPostRegisterWithMissingPasswordField: 'with missing password field',
   failPostRegisterWithEmptyRequestBody: 'with empty request body',

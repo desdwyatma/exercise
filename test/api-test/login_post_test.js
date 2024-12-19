@@ -11,9 +11,9 @@ const testScenario = {
   successPostLoginWithValidRequestParameter: 'with valid request parameter',
   
   describeNegativePostLogin: 'As a User, I should not be able to Login',
-  failPostLoginWithTheEmailFieldIsInvalidUser: 'with the email field is invalid user',
+  failPostLoginWithAnInvalidUserEmail: 'with an invalid user email',
   failPostLoginWithTheEmailFieldIsEmpty: 'with the email field is empty',
-  failPostLoginWithMissingEmailField: 'with missing password field',
+  failPostLoginWithMissingEmailField: 'with missing email field',
   failPostLoginWithThePasswordFieldIsEmpty: 'with the password field is empty',
   failPostLoginWithMissingPasswordField: 'with missing password field',
   failPostLoginWithEmptyRequestBody: 'with empty request body',
@@ -30,7 +30,7 @@ describe(testScenario.describePositivePostLogin, () => {
 });
 
 describe(testScenario.describeNegativePostLogin, () => {
-  it(`@negative @login ${testScenario.failPostLoginWithTheEmailFieldIsInvalidUser}`, async function () {
+  it(`@negative @login ${testScenario.failPostLoginWithAnInvalidUserEmail}`, async function () {
     const body = JSON.parse(JSON.stringify(requestData.loginEmptyEmailData));
     const response = await testDataLogin.postLogin(body);
     expect(response.status).to.equal(responseStatus.errorResponses.BadRequest.code);
