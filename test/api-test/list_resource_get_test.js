@@ -6,11 +6,11 @@ const listResourceSchema = require('../helper/schema/list_resource_schema.json')
 const responseStatus = require('../helper/status-response/common_status_response.json');
 
 const testScenario = {
-  describePositiveGetListResource: 'As a User, I should be able to get Resource List',
+  describePositiveGetListResource: 'As a User, I should be able to get List Resource',
   successGetListResourceWithValidRequestParameter: 'with valid request parameter',
   successGetOneListResourceWithValidRequestParameter: 'only one resource with valid request parameter',
   
-  describeNegativeGetListResource: 'As a User, I should not be able to get Resource List',
+  describeNegativeGetListResource: 'As a User, I should not be able to get List Resource',
   failGetListResourceWithListOfDataDoesNotExist: 'with list of data does not exist',
   failGetListResourceWithInvalidHttpMethod: 'with invalid HTTP method',
 };
