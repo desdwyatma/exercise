@@ -37,7 +37,7 @@ npm run test-api -- "--grep" "@available-tagging"
 - **As a User**, I should not be able Register with empty request body.
 - **As a User**, I should not be able Register with invalid HTTP method.
 
-### Password Reset
+### Resource List
 - **As a User**, I should be able to get Resource List with valid request parameter.
 - **As a User**, I should be able to get Resource List only one resource with valid request parameter.
 - **As a User**, I should not be able to get Resource List with list of data does not exist.
